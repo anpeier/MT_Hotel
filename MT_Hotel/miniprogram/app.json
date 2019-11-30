@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/voucher/index"
+
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "selectedColor": "#000",
+    "borderStyle": "white",
+    "backgroundColor": "#ededed",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_check.png"
+      },
+      {
+        "text": "看过/收藏",
+        "pagePath": "pages/collect/index",
+        "iconPath": "images/s.png",
+        "selectedIconPath": "images/s_check.png"
+      },
+      {
+        "text": "订单",
+        "pagePath": "pages/order/index",
+        "iconPath": "images/d.png",
+        "selectedIconPath": "images/d_check.png"
+      },
+      {
+        "text": "抵用券",
+        "pagePath": "pages/voucher/index",
+        "iconPath": "images/h.png",
+        "selectedIconPath": "images/h_check.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
